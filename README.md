@@ -17,7 +17,7 @@ Male reproductive health has long suffered from being treated as an **acute, lat
 - Upstream, highly modifiable risk factors such as **scrotal hyperthermia, prolonged sitting, traditional Dokha/Midwakh tobacco use, metabolic syndrome and unmonitored gym supplements/SARMs**—remain undetected until secondary testicular injury or irreversible germ-cell loss occurs.
 - Societal stigma, fear of emasculating labels and the discomfort of clinic-based semen collection rooms create severe barriers to timely assessment.
 
-**Al-Kayan Health (صحة الكيان)** transforms this pathway into an upstream and proactive digital front door. Aligned with **Abu Dhabi’s reproductive health strategy**, **Department of Health (DoH)** standards, and **Malaffi Health Information Exchange (HIE)**, Al-Kayan leverages **Explainable AI (XAI)**, **frictionless at-home diagnostics**, **privacy-by-design** and **deep cultural attunement** to detect reproductive risks years earlier and guide men safely to clinical care.
+**Al-Kayan Health (صحة الكيان)** transforms this pathway into an upstream and proactive digital front door. Aligned with **Abu Dhabi’s reproductive health strategy**, **Department of Health (DoH)** standard and **Malaffi Health Information Exchange (HIE)**, Al-Kayan leverages **Explainable AI (XAI)**, **frictionless at-home diagnostics**, **privacy-by-design** and **deep cultural attunement** to detect reproductive risks years earlier and guide men safely to clinical care.
 
 ---
 
