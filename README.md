@@ -1,5 +1,5 @@
 # Al-Kayan Health | صحة الكيان
-### Proactive, Culturally Trusted, Privacy-Preserving Male Reproductive Health Intelligence Platform
+### Proactive, Culturally Trusted and Privacy-Preserving Male Reproductive Health Intelligence Platform
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB.svg?logo=react)](https://react.dev/)
@@ -13,11 +13,11 @@
 ## 🌟 Executive Overview
 
 Male reproductive health has long suffered from being treated as an **acute, late-stage infertility crisis** rather than a routine component of preventive and preconception care. In standard clinical practice:
-- Men present only after **16 to 24 months of conception difficulties**, and often after the female partner has undergone invasive, costly testing.
-- Upstream, highly modifiable risk factors—such as **scrotal hyperthermia, prolonged sitting, traditional Dokha/Midwakh tobacco use, metabolic syndrome, and unmonitored gym supplements/SARMs**—remain undetected until secondary testicular injury or irreversible germ-cell loss occurs.
+- Men present only after **16 to 24 months of conception difficulties** and often after the female partner has undergone invasive, costly testing.
+- Upstream, highly modifiable risk factors—such as **scrotal hyperthermia, prolonged sitting, traditional Dokha/Midwakh tobacco use, metabolic syndrome and unmonitored gym supplements/SARMs**—remain undetected until secondary testicular injury or irreversible germ-cell loss occurs.
 - Societal stigma, fear of emasculating labels, and the discomfort of clinic-based semen collection rooms create severe barriers to timely assessment.
 
-**Al-Kayan Health (صحة الكيان)** transforms this pathway into an upstream, proactive digital front door. Aligned with **Abu Dhabi’s reproductive health strategy**, **Department of Health (DoH)** standards, and **Malaffi Health Information Exchange (HIE)**, Al-Kayan leverages **Explainable AI (XAI)**, **frictionless at-home diagnostics**, **privacy-by-design**, and **deep cultural attunement** to detect reproductive risks years earlier and guide men safely to clinical care.
+**Al-Kayan Health (صحة الكيان)** transforms this pathway into an upstream and proactive digital front door. Aligned with **Abu Dhabi’s reproductive health strategy**, **Department of Health (DoH)** standards, and **Malaffi Health Information Exchange (HIE)**, Al-Kayan leverages **Explainable AI (XAI)**, **frictionless at-home diagnostics**, **privacy-by-design**, and **deep cultural attunement** to detect reproductive risks years earlier and guide men safely to clinical care.
 
 ---
 
@@ -72,7 +72,7 @@ flowchart TD
 ## ✨ Key Capabilities & Pillars
 
 ### 1. Earlier, Explainable Risk Identification (XAI)
-- **Multi-Modal Consented Inputs**: Analyzes modifiable lifestyle (sitting >8h, saunas, Dokha), metabolic syndrome (BMI, HbA1c), fitness supplements (anabolic steroids, SARMs), and anatomical history (varicocele, undescended testicle).
+- **Multi-Modal Consented Inputs**: Analyzes modifiable lifestyle (sitting >8h, saunas, Dokha), metabolic syndrome (BMI, HbA1c), fitness supplements (anabolic steroids, SARMs) and anatomical history (varicocele, undescended testicle).
 - **Clear Screening vs. Diagnosis Boundary**: Explicit clinical boundary separating preventive risk stratification from formal medical diagnosis, adhering to EAU 2024 and WHO guidelines.
 - **SHAP Feature Attribution Waterfall**: Shows exact factor contributions (+ risk vs. - protective points) with cited physiological explanations.
 - **Counterfactual "What-If" Simulator**: Allows men to simulate lifestyle modifications and visualize projected risk score decreases over a 74–90 day spermatogenic cycle.
@@ -100,7 +100,7 @@ flowchart TD
 ### 5. Privacy by Design & UAE Data Sovereignty
 - **UAE Federal Decree-Law No. 45/2021 Compliant**: Strictly adheres to UAE Personal Data Protection Law and Abu Dhabi Department of Health Information & Cyber Security Standards (ADHICS).
 - **Zero-Knowledge SafeID**: Initial screening requires no Emirates ID, real name, or phone number; uses pseudonymous tokens (`#KYN-8492-UAE`).
-- **Granular Consent Toggles**: Patients control whether data syncs with **Malaffi HIE**, stays locked to treating physicians, or contributes to de-identified research.
+- **Granular Consent Toggles**: Patients control whether data syncs with **Malaffi HIE**, stays locked to treating physicians or contributes to de-identified research.
 - **Right to Erasure**: Instant 1-click permanent data purge.
 
 ### 6. Demonstrable Clinical Value (Simulated Cohort $n=1,250$)
