@@ -189,7 +189,7 @@ ai-kayan-health/
 
 ## ⚖️ Clinical Disclaimer
 
-Al-Kayan Health is an intelligent early-risk screening and health navigation platform. It does **not** constitute a definitive medical diagnosis. All clinical findings, prescriptions, and surgical evaluations must be verified by a licensed physician in accordance with Abu Dhabi Department of Health (DoH) regulations.
+Al-Kayan Health is an intelligent early-risk screening and health navigation platform. It does **not** constitute a definitive medical diagnosis. All clinical findings, prescriptions and surgical evaluations must be verified by a licensed physician in accordance with Abu Dhabi Department of Health (DoH) regulations.
 
 ---
 
