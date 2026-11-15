@@ -13,11 +13,11 @@
 ## 🌟 Executive Overview
 
 Male reproductive health has long suffered from being treated as an **acute, late-stage infertility crisis** rather than a routine component of preventive and preconception care. In standard clinical practice:
-- Men present only after **16 to 24 months of conception difficulties** and often after the female partner has undergone invasive, costly testing.
+- Men present only after **16 to 24 months of conception difficulties** and often after the female partner has undergone invasive and costly testing.
 - Upstream, highly modifiable risk factors—such as **scrotal hyperthermia, prolonged sitting, traditional Dokha/Midwakh tobacco use, metabolic syndrome and unmonitored gym supplements/SARMs**—remain undetected until secondary testicular injury or irreversible germ-cell loss occurs.
-- Societal stigma, fear of emasculating labels, and the discomfort of clinic-based semen collection rooms create severe barriers to timely assessment.
+- Societal stigma, fear of emasculating labels and the discomfort of clinic-based semen collection rooms create severe barriers to timely assessment.
 
-**Al-Kayan Health (صحة الكيان)** transforms this pathway into an upstream and proactive digital front door. Aligned with **Abu Dhabi’s reproductive health strategy**, **Department of Health (DoH)** standards, and **Malaffi Health Information Exchange (HIE)**, Al-Kayan leverages **Explainable AI (XAI)**, **frictionless at-home diagnostics**, **privacy-by-design**, and **deep cultural attunement** to detect reproductive risks years earlier and guide men safely to clinical care.
+**Al-Kayan Health (صحة الكيان)** transforms this pathway into an upstream and proactive digital front door. Aligned with **Abu Dhabi’s reproductive health strategy**, **Department of Health (DoH)** standards, and **Malaffi Health Information Exchange (HIE)**, Al-Kayan leverages **Explainable AI (XAI)**, **frictionless at-home diagnostics**, **privacy-by-design** and **deep cultural attunement** to detect reproductive risks years earlier and guide men safely to clinical care.
 
 ---
 
@@ -84,10 +84,10 @@ flowchart TD
 - **Quick Exit / Camouflage**: Instant 1-click camouflage button that replaces the screen with live UAE sports and financial news for privacy in public or shared spaces.
 
 ### 3. Lower-Friction At-Home Diagnostics
-- **Discreet Courier**: Plain, unbranded packaging dispatched across Abu Dhabi, Al Ain, and Al Dhafra.
+- **Discreet Courier**: Plain, unbranded packaging dispatched across Abu Dhabi, Al Ain and Al Dhafra.
 - **Temperature-Monitored Chain of Custody**: Containers maintain **36°C–37°C** with IoT telemetry to preserve sperm membrane integrity and motility.
 - **WHO 6th Edition Microfluidic Analysis**: Routed to accredited partner reference laboratories (**Cleveland Clinic Abu Dhabi**, **Danat Al Emarat**, **SSMC**) with board andrologist review.
-- **Dried Blood Spot Hormone Panel**: At-home 8:00 AM collection for morning Total/Free Testosterone, LH, FSH, Prolactin, and Estradiol.
+- **Dried Blood Spot Hormone Panel**: At-home 8:00 AM collection for morning Total/Free Testosterone, LH, FSH, Prolactin and Estradiol.
 
 ### 4. Safe Clinical Triage & Red Flag Protocol
 - **Immediate Fast-Track**: Critical red flags (painless testicular mass, acute sudden pain, persistent hematospermia) trigger urgent **24–48 hour urology consultation** to rule out testicular neoplasm or torsion.
