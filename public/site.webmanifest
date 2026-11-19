@@ -1,0 +1,17 @@
+{
+  "name": "Al-Kayan Health | صحة الكيان",
+  "short_name": "Al-Kayan",
+  "description": "Proactive Male Reproductive Health Intelligence Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070D1B",
+  "theme_color": "#10B981",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

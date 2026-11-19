@@ -4,6 +4,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB.svg?logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF.svg?logo=vite)](https://vitejs.dev/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FVivekkumar161122%2Fai-kayan-health)
+[![Docker](https://img.shields.io/badge/Docker-Multi--stage-2496ED.svg?logo=docker)](DEPLOYMENT.md)
 [![UAE Data Protection](https://img.shields.io/badge/UAE%20PDPL-Law%20No.%2045%2F2021-emerald.svg)](https://u.ae/)
 [![Clinical Guidelines](https://img.shields.io/badge/Standards-WHO%206th%20Ed%20%7C%20EAU%202024-green.svg)](https://uroweb.org/)
 [![Malaffi Aligned](https://img.shields.io/badge/Abu%20Dhabi-DoH%20%26%20Malaffi%20Ready-0284C7.svg)](https://www.malaffi.ae/)
@@ -147,11 +149,30 @@ npm run dev
 
 The application will be live at `http://localhost:3000/`.
 
-### Production Build
+### Production Build & Type Check
 ```bash
+# Type check TypeScript code
+npm run type-check
+
+# Build optimized production bundle
 npm run build
+
+# Preview production build locally
 npm run preview
 ```
+
+---
+
+## ☁️ Deployment & Cloud Platforms
+
+Al-Kayan Health is configured to be **100% platform-independent** and **Vercel-native**:
+
+- **Vercel (Recommended)**: Pre-configured with `vercel.json` for SPA rewrites, security headers, and asset caching.
+- **Docker / Cloud Run / AWS / Azure**: Multi-stage `Dockerfile` with Nginx Alpine and `docker-compose.yml`.
+- **Netlify & Cloudflare Pages**: Pre-configured with `netlify.toml`, `public/_redirects`, and `public/_headers`.
+- **Subpath / GitHub Pages**: Configurable via `VITE_BASE_PATH` environment variable.
+
+👉 For detailed step-by-step deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
 
 ---
 
@@ -159,10 +180,26 @@ npm run preview
 
 ```
 ai-kayan-health/
-├── index.html                 # Entry HTML with Arabic/English typography
-├── package.json               # Dependencies & build scripts
-├── tsconfig.json              # TypeScript compiler configuration
-├── vite.config.ts             # Vite configuration
+├── index.html                 # Entry HTML with Arabic/English typography & SEO
+├── package.json               # Dependencies, engines & build scripts
+├── tsconfig.json              # TypeScript configuration with strict casing
+├── vite.config.ts             # Vite configuration with host & chunk splitting
+├── vercel.json                # Vercel deployment configuration & SPA rewrites
+├── netlify.toml               # Netlify configuration & fallback routing
+├── Dockerfile                 # Multi-stage production container build
+├── docker-compose.yml         # Container orchestration configuration
+├── nginx.conf                 # Nginx reverse proxy with gzip & security headers
+├── DEPLOYMENT.md              # Multi-platform deployment guide
+├── .env.example               # Environment variables template
+├── public/                    # Static assets copied directly to build root
+│   ├── favicon.svg            # Al-Kayan Health shield & vitality icon
+│   ├── robots.txt             # Search crawler directives
+│   ├── site.webmanifest       # PWA web manifest
+│   ├── _redirects             # Netlify/Cloudflare SPA rewrite rule
+│   └── _headers               # Cloudflare Pages security & caching headers
+├── .github/
+│   └── workflows/
+│       └── ci.yml             # GitHub Actions CI for Node 18, 20, 22 on Linux
 ├── src/
 │   ├── main.tsx               # Application bootstrap
 │   ├── App.tsx                # Master container & bidirectional layout

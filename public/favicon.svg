@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield -->
+  <path d="M50 8 L85 22 V50 C85 72 50 92 50 92 C50 92 15 72 15 50 V22 Z" fill="#0D162B" stroke="url(#shieldGrad)" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Inner Glow Accent -->
+  <path d="M50 16 L77 27 V50 C77 67 50 83 50 83 C50 83 23 67 23 50 V27 Z" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.5"/>
+  <!-- Medical / Vitality Cross Motif -->
+  <path d="M50 32 V62 M35 47 H65" stroke="url(#shieldGrad)" stroke-width="5" stroke-linecap="round"/>
+  <!-- Central Pulse Dot -->
+  <circle cx="50" cy="47" r="4.5" fill="#38BDF8" />
+</svg>
