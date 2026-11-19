@@ -1,6 +1,8 @@
 # Al-Kayan Health | صحة الكيان
 ### Proactive, Culturally Trusted and Privacy-Preserving Male Reproductive Health Intelligence Platform
 
+ [Deployed Link](https://ai-kayan-health.vercel.app)
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB.svg?logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF.svg?logo=vite)](https://vitejs.dev/)
